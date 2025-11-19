@@ -19,7 +19,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password')->nullable();
             $table->longText('profile')->nullable();
-            $table->string('google_token')->nullable();
+            $table->longText('google_token')->nullable();
             $table->string('google_refresh_token')->nullable();
             $table->rememberToken();
             $table->timestamps();

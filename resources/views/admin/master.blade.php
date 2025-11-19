@@ -33,7 +33,6 @@
                 sessionStorage.fonts = true;
             },
         });
-        
     </script>
     <!-- CSS: hide ALL search boxes -->
 
